@@ -8,16 +8,6 @@
 
 ---
 
-## :open_book: Indice
-
-* [Uso](#uso)
-* [Scripts](#scripts)
-* [Despliegue Automatizado](#despliegue)
-* [Paginas](#paginas)
-* [Autor](#autor)
-
----
-
 ## :tada: Uso
 
 Se ejecuta con **docker run** seguido de **pyinstaller**

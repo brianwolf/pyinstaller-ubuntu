@@ -1,7 +1,7 @@
 
 FROM ubuntu:18.04
 
-# ARG TAG
+ARG TAG
 
 ENV PYTHON_VERSION 3.8.0
 ENV DEBIAN_FRONTEND noninteractive
