@@ -1,4 +1,4 @@
-# pyinstaller-ubuntu
+# :card_index_dividers:	pyinstaller-ubuntu
 
 > Imagen de Ubuntu 18.04 con Python 3.8 y Pyinstaller 3.6
 
