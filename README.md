@@ -2,9 +2,10 @@
 
 > Imagen de Ubuntu 18.04 con Python 3.8 y Pyinstaller 3.6
 
+Esta imagen se creó debido a que la version de python oficial tiene una version de *gcc* diferente a la usada en Ubuntu, esto hace que pyinstaller genere un ejecutable que no funciona en SO basadas en Ubuntu
+
+![alt text](docs/img/ubuntu.jpg)
 ![alt text](docs/img/python.png)
-![alt text](docs/img/docker.png)
-![alt text](docs/img/circleci.png)
 
 ---
 
@@ -20,7 +21,6 @@ brianwolf94/pyinstaller-ubuntu \
     --clean \
     --onefile \
     --name app-script \
-    --log-level INFO \
     --add-data="resources/version.txt:resources"
 ```
 
@@ -44,7 +44,7 @@ Este despliegue consiste en:
 
 ## :earth_americas: Paginas
 
-* [Docker Hub Python](https://hub.docker.com/_/ubuntu)
+* [Docker Hub Generado](https://hub.docker.com/repository/docker/brianwolf94/pyinstaller-ubuntu)
 * [CircleCI](https://circleci.com/)
 * [Emoticones del Readme](https://github.com/ikatyang/emoji-cheat-sheet)
 
